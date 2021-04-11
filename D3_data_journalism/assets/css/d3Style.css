@@ -4,6 +4,18 @@
   text-anchor: middle;
 }
 
+.chart::before {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  z-index: -1;
+  display: block;
+  width: 400px;
+  height: 300px;
+  content: " ";
+  opacity: 0.3;
+}
+
 .active {
   font-weight: bold;
   fill: #000;
